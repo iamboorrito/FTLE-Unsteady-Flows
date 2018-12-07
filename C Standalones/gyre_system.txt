@@ -1,0 +1,13 @@
+double A = 0.1;
+double ep = 0.1;
+double w = M_PI/5;
+
+x':
+    double g = x*(ep*sin(w*t)*x + (1 - 2*ep*sin(w*t)));
+    return -A*M_PI*sin(M_PI*g)*cos(M_PI*y);
+
+
+y':
+    double g = x*(ep*sin(w*t)*x + (1 - 2*ep*sin(w*t)));
+    double dg = 1 + (2*x - ep)*ep*sin(w*t);
+    return A*M_PI*cos(M_PI*g)*sin(M_PI*y)*dg;
