@@ -5,4 +5,4 @@ An implementation of the FTLE algorithm. To compile the C files, you need OpenMP
 
 and use Matlab to run the .m script. There is also a standalone C file called ftle.c which computes the flow map and finite time Lyapunov exponent field and outputs them both as .ppm and .csv files.
 
-![Double Gyre made by standalone](<"Generated Images"/"Double Gyre"/ftle3.png>)
+![Double Gyre made by standalone](https://github.com/iamboorrito/FTLE-Unsteady-Flows/tree/master/Generated%20Images/Double%20Gyre)
